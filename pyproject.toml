@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools~=62.3", "wheel~=0.37.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name         = "kitchen-assistant-frontend"
+version      = "20230420.0"
+license      = {text = "Apache-2.0"}
+description  = "The Kitchen Assistant frontend"
+readme       = "README.md"
+authors      = [
+    {name = "The Kitchen Assistant Authors", email = "forrest.gray@jazcosolutions.com"}
+]
+requires-python = ">=3.9.0"
+
+[project.urls]
+"Homepage" = "https://github.com/ele-kitchen-assistant/ka-frontend"
+
+[tool.setuptools]
+platforms = ["any"]
+zip-safe  = false
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["kitchen_assistant_frontend"]

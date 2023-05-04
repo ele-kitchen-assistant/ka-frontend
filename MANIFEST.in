@@ -1,0 +1,3 @@
+include README.md
+graft kitchen_assistant_frontend
+recursive-exclude * *.py[co]
